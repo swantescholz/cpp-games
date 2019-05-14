@@ -1,0 +1,14 @@
+/*ADVISE:
+35.0 0.0 0.0 2.5
+0.0 10.0 0.0 0.0
+*/
+//spirals with hight constant
+torus 0.25 //middle
+	matrix
+		scaling 35
+		rotationFromTo 0 1 0  0 0 1
+		translation 0 0 0
+	direction
+		cross 0 -1 0
+	strength
+		constant 14.0

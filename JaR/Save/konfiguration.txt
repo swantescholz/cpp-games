@@ -1,0 +1,28 @@
+1.08			#version#
+650			#screen breite, standart:800#
+600			#screen hoehe, standart:600#
+0,233,180,125		#0 = background aus, 1 = background an; danach:hintergrundfarbe wenn background aus,1.:rot,2.:gruen,3.:blau#
+800			#Background breite,standart:800#
+2400			#Background hoehe,standart:2400#
+120,40			#verschiebungsbereich bei den 2 modi;standart:120,80#
+400			#speed fuer map beim editmode,standart:100#
+0			#sound aus: 0; sound an: 1#
+100			#Speed mit dem sich L, R und S beim Editor veraendern#
+15,20			#schriftgroesse;ecken[std:16].titel[std:20]#
+16     			#anzahl der level,standart:16#
+0,200,200,400,2.0,Der Einstieg,folge den Pfeilen|		#1.stelle = maximale anzahl steine in den entsprechenden levels#
+0,200,200,400,2.0,[Escape]->[r],"b" nur kurz|			#2.stelle = speed links, standart:200#
+5,200,200,400,2.0,Blöcke,mit "n" setzen|			#3.stelle = speed rechts, standart:200#
+4,200,200,400,2.0,Boden,einen boden legen|			#4.stelle = speed nach oben, standart:400#
+0,200,200,400,2.0,Ätzen,pfeiltasten zum ätzen|	#5.stelle = der wert um den sich die sprungsteigung pro sekunde verringert, standart:2.0#
+0,0,200,400,2.0,Checkpoints ->,mit "t" zum checkpoint|	 	#6.stelle = levelname#
+7,200,200,400,2.0,Die Brücke, eine brücke legen|		##
+1,200,200,400,2.0,Halbtot,sich opfern|			##
+1,200,200,400,2.0,Ganztot,dem Tot zuvorkommen|		##
+2,200,200,400,2.0,Aktion,Rückweg vorbereiten|		#10#
+0,200,200,400,2.0,Schweben,vom checkpoint links|	##
+0,300,300,600,1.2,Schwimmen,schnell sein|		##
+4,0,200,400,2.0,Transport,sich selbst schieben lassen|	##
+0,200,200,400,2.0,Getunnelt,man braucht gutes timing|	##
+2,600,600,600,2.0,Speedrunner,immer nach oben|		#15#
+0,700,700,5,2.0,Editor!!!,->|				#Code ist fuer Editor[e]#

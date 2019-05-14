@@ -1,0 +1,15 @@
+0 0.0 0.0 0.0 1.0		//background color
+2 0.0 0.0 50.0			//cam1 position
+3 0.0 0.0 0.0			//cam2 position
+4 50.0 10.0 10.0		//x/y/z of the cuboid
+5 30.0					//rotation per second of cuboid
+6 "wood"				//texture name for the cuboid
+7 0 "Philosophy"    0.5 0.7 0.9 1.0		//the first  text on the cuboid
+7 1 "Of Yourself"   0.5 0.7 0.9 1.0		//the second text on the cuboid
+7 2 "Press Return"  0.9 0.7 0.5 1.0		//the third  text on the cuboid
+7 3 "To Continue"   0.9 0.7 0.5 1.0		//the fourth text on the cuboid
+8 2500			//number of particles
+9 3				//particle effect type(zero->random,one->volcano,two->raincloud,three->rainbow)
+10 1			//camera mode(zero->none,one->centered rotation)
+11 1			//show FPS(zero->no,one->yes)
+end

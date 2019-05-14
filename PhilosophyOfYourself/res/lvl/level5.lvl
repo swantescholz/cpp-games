@@ -1,0 +1,137 @@
+0 0.0 -7.0 1 10.0  8.0 10.0  15.0 29.0
+-1 15.0  0.002 0.0 10.0
+-2 10.0 0.02 0.0 1.0 1.0 1.0  1.0 1.0 1.0  1.0 1.0 1.0  1.0 0.0 0.0  35.0
+-3 0.2 0.2 0.2 50.0 50.0 7
+10 18.0 -17.0
+
+//level 1
+1 0.0 -10.0 "Es gibt keinen Freien Willen"
+1 2.0 -10.0
+1 4.0 -10.0
+1 6.0 -10.0
+1 8.0 -10.0
+1 10.0 -10.0
+1 12.0 -10.0
+1 14.0 -10.0
+1 16.0 -10.0
+1 18.0 -10.0
+1 20.0 -10.0
+1 -2.0 -10.0
+1 -4.0 -10.0
+1 -6.0 -10.0
+1 -8.0 -10.0
+1 -10.0 -10.0
+1 -12.0 -10.0
+1 -14.0 -10.0
+1 -16.0 -10.0
+2 -17.0  -7.0 "Ohne freien Willen gibt es auch keine echten Entscheidungen"
+1 -18.0 -10.0
+1 -20.0 -10.0
+
+//level 2
+1 6.0 -4.0 "Es gibt keine echten Entscheidungen"
+1 8.0 -4.0
+1 10.0 -4.0
+1 12.0 -4.0
+1 14.0 -4.0
+1 16.0 -4.0
+2 18.0 -1.0 "Ohne Entscheidungen gibt es auch kein gut oder schlecht"
+1 18.0 -4.0
+1 20.0 -4.0
+
+//level3
+1 0.0 2.0 "Es gibt kein gut oder schlecht"
+1 -2.0 2.0
+1 -4.0 2.0
+1 -6.0 2.0
+1 -8.0 2.0
+1 -10.0 2.0
+1 -12.0 2.0
+1 -14.0 2.0
+1 -16.0 2.0
+2 -15.5 5.0 "Wenn es nicht Gutes gibt, kann auch nichts Sinn haben"
+1 -18.0 2.0
+1 -20.0 2.0
+
+//level 4
+8 8.0 8.0 "Es gibt - objektiv betrachtet - keinen Sinn"
+1 10.0 8.0
+1 12.0 8.0
+1 14.0 8.0
+1 16.0 8.0
+1 18.0 8.0
+1 20.0 8.0
+
+//stairs and level5
+1 4.0 20.0 "... ein allgemeines Streben des Universums nach Komplexitaet"
+1 8.0 16.0 "Nur Tendenzen und..."
+1 2.0 12.0 "'Was gibt es dann?'"
+1 0.0 12.0
+1 -2.0 12.0
+1 -4.0 13.0
+1 -6.0 13.0
+1 -8.0 13.0
+1 -10.0 13.0
+1 -12.0 13.0
+1 -14.0 13.0
+1 -16.0 13.0
+1 -18.0 13.0
+1 -20.0 13.0
+
+//unknown and fake answer
+9 0.0 25.5 "'Das kannst du nicht begreifen'"
+9 2.0 25.5 "'Das kannst du nicht begreifen'"
+9 4.0 25.5 "'Das kannst du nicht begreifen'"
+9 6.0 25.5 "'Das kannst du nicht begreifen'"
+9 8.0 25.5 "'Das kannst du nicht begreifen'"
+10 4.0 30.0
+
+//wall middle
+3 -2.0 16.0 "'Aber ich bin ein Subjekt!'"
+1 -2.0 19.2
+1 0.0 19.2
+1 0.0 17.2
+1 2.0 19.2
+
+//unknown left
+9 -22.0 -10.0
+9 -22.0 -8.0
+9 -22.0 -6.0
+9 -22.0 -4.0
+9 -22.0 -2.0
+9 -22.0 0.0
+9 -22.0 2.0
+9 -22.0 4.0
+9 -22.0 6.0
+9 -22.0 8.0
+9 -22.0 10.0
+9 -22.0 12.0
+9 -22.0 14.0
+9 -22.0 16.0
+9 -22.0 18.0obl4ion
+
+9 -22.0 20.0
+9 -22.0 22.0
+9 -22.0 24.0
+9 -22.0 26.0
+
+//unknown right
+9 22.0 -10.0
+9 22.0 -8.0
+9 22.0 -6.0
+9 22.0 -4.0
+9 22.0 -2.0
+9 22.0 0.0
+9 22.0 2.0
+9 22.0 4.0
+9 22.0 6.0 "'Was mag hier hinter sein?'"
+9 22.0 8.0 "'Was mag hier hinter sein?'"
+9 22.0 10.0 "'Was mag hier hinter sein?'"
+9 22.0 12.0 "'Was mag hier hinter sein?'"
+9 22.0 14.0 "'Was mag hier hinter sein?'"
+
+1 24.0 -17.0 "Trotz allem, Lebewesen - als Subjekte - empfinden Sinn" 
+1 21.0 -18.0 "Und das ist der entscheidende Punkt"
+
+end
+

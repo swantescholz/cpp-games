@@ -1,0 +1,21 @@
+This is the readme of the Level Editor of the Game CubeFace
+
+press right click on the .lvl file you want to edit,
+then press open with and select the programm "_where_you_put_this_\CF_LevelEditor.exe"
+
+Controls:
+	mouse:
+		-left: put a block
+		-right: delete a block
+		-wheel: zoom
+	keyboard:
+		-w,a,s,d: move camera around
+		-up,down,left,right: switch from one face to another
+		-F1: save level
+		-F2: reload the level
+	keypad:
+		-1,2: rotate the camera
+		-4,5: switch block type
+		-7,8: make the grid smaller or bigger
+
+S.Scholz, 2009

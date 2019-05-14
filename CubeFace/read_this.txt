@@ -1,0 +1,27 @@
+This is the README of the game "CubeFace" 2009 by S. Scholz.
+
+-Help and Control:
+	-Read the help (in-game or save/help.txt)
+-Options:
+	-Read the options (save/options.ini)
+
+-Level Editor
+	There is no grafic level editor jet, but you
+	can edit levels manuel:
+	in save/level: you can edit the text files
+	1.line: title of level
+	2.line: 1.:face for player, 2.,3. pos of player, 4.,5. w/h of player
+	3.line and all other:
+		1.: face of block
+		2.,3.: pos of block
+		4.,5.: w/h of block
+		6.: type of block
+
+-Delete save/progress.bin to start a new game!
+
+##edit##
+-now there is a grafic level editor
+	open a level file with CF_LevelEditor.
+	the first two lines of the file you still must edit manually.
+
+	read the read_this.txt of CF_LevelEditor for controlls.

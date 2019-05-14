@@ -1,0 +1,6 @@
+0 7						//number of subdivisions of background
+1 15.0 0.002 			//cam (z-coordinate, interpolaiton-factor
+2 0						//camera mode(zero->auto,one->centered)
+3 25.0 0.02  1.0 1.0 1.0  1.0 1.0 1.0  1.0 1.0 1.0  1.0 0.0 0.0  50.0 55.0 //light
+5 1 					//show FPS(one->yes, zero->no)
+end

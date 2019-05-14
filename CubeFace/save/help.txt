@@ -1,0 +1,10 @@
+This game is a 2D/3D platformer.
+You play on a cube and when you move
+from one face to another, the gravitation
+may be different, than if you would have been
+going there on another way.
+It is quite difficult to describe, but
+I think you will get it after a while.
+ 
+Have fun,
+S. Scholz, 2009

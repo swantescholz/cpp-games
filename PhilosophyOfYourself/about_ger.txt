@@ -1,0 +1,12 @@
+About Datei zum Spiel "Philosophy Of Yourself" Deutsch
+
+Dieses Spiel wurde programmiert als Hilfsmittel für ein Referat
+zum Thema "Der Sinn des Lebens" im Fach Philosophie.
+Die Ur-Grundlage für mein Referat war eine Szene aus dem Film "Contact",
+die man gesehen haben sollte, wenn man die ersten Level des Spiels spielt.
+Die letzten Level funktionieren aber unabhängig von dem Film.
+
+
+
+Swante Scholz, 20.06.2010 Bielefeld
+

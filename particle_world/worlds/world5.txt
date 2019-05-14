@@ -1,0 +1,53 @@
+/*ADVISE:
+0.0 0.0 40.0 2.5
+0.0 0.0 -4.0 0.4
+*/
+sphere
+	matrix
+		scaling 6
+		translation 0 0 25
+	direction
+		planeCentered 0 0 0  1 0 0
+	strength
+		constant -4.0
+cylinder
+	matrix
+		scaling 5 15 5
+		rotationFromTo 0 1 0 0 0 -1
+		translation 10 0 0
+	direction
+		lineCentered 0 0 0 0 1 0
+	strength
+		distLine -5 10 0 0 0 0 1 0 1
+cylinder
+	matrix
+		scaling 5 15 5
+		rotationFromTo 0 1 0 0 0 -1
+		translation -10 0 0
+	direction
+		lineCentered 0 0 0 0 1 0
+	strength
+		distLine -5 10 0 0 0 0 1 0 1
+box
+	matrix
+		scaling 30 30 250
+		translation 0 0 -270
+	direction
+		planeCentered 0 0 0  1 1 0
+	strength
+		constant 5.0
+box
+	matrix
+		scaling 12
+		translation 0 0 26
+	direction
+		resistance
+	strength
+		dragTurbulence 0.2
+sphere
+	matrix
+		scaling 50 50 50
+	direction
+		constant 0 0 -1
+	strength
+		constant 1.2

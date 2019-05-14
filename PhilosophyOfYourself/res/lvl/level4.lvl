@@ -1,0 +1,97 @@
+0 -2.0 -11.0 1 10.0  8.0 10.0  15.0 29.0
+-1 15.0  0.002 0.0 10.0
+-2 10.0 0.02 0.0 1.0 1.0 1.0  1.0 1.0 1.0  1.0 1.0 1.0  1.0 0.0 0.0  35.0
+-3 0.2 0.2 0.2 50.0 50.0 7
+10 -11.0 17.5
+
+//bottom part
+1 -2.0 -15.0 "'Ihr habt das Befoerderungssystem gebaut?'"
+1 2.0 -11.0 "'Nein, wir wissen nicht wer es gebaut hat'"
+1 -4.0 -6.5 "'Sie sind schon lange weg gewesen als wir herkamen'"
+
+1 0.0 -2.0
+1 2.0 -2.0
+1 4.0 -2.0
+11 "S" "FreeSans" 	24 1.0 0.0 0.0  0 0 0  0 0 0  0.0     6.0 1.0  7.0 1.0  7.0 2.0  6.0 2.0
+8 6.0 -2.0 "Selbst fuer deutlich intelligentere Wesen gibt es noch Mysterien"
+1 8.0 -2.0
+
+5 10.0 -3.0 "'Ich glaube dir nicht'"
+5 12.0 -3.0 "'Ich glaube dir nicht'"
+5 14.0 -3.0 "'Ich glaube dir nicht'"
+5 16.0 -3.0 "'Ich glaube dir nicht'"
+
+1 18.0 -2.0 "'Ihr seid interessante Wesen'"
+1 20.0 -2.0
+1 22.0 -2.0 "'Ihr habt viel Potenzial'"
+1 24.0 -2.0 "'konstruktives und destruktives'"
+
+5 26.0 -3.0 "'Ich glaube dir nicht'"
+5 28.0 -3.0 "'Ich glaube dir nicht'"
+5 30.0 -3.0 "'Ich glaube dir nicht'"
+5 32.0 -3.0 "'Ich glaube dir nicht'"
+5 34.0 -3.0 "'Ich glaube dir nicht'"
+5 36.0 -3.0 "'Ich glaube dir nicht'"
+5 38.0 -3.0 "'Ich glaube dir nicht'"
+
+1 40.0 -2.0 "'Ihr fuehlt euch so allein, isoliert und verloren'"
+1 42.0 -2.0
+1 44.0 -2.0 "'Gegen diese Leere hilft nur Gemeinschaft'"
+1 46.0 -2.0
+1 48.0 -2.0
+1 50.0 -2.0
+1 52.0 -2.0
+1 54.0 -2.0
+1 56.0 -2.0
+1 58.0 -2.0
+1 60.0 -2.0
+1 62.0 -2.0
+7 64.0 -2.0 1 "www.Filmkritiken.de : Filmweisheiten sind oft banal oder sogar schlicht falsch"
+7 66.0 -2.0 0 "Wissenschaft: Forscher haben bewiesen, dass es den 'freien Willen' nicht gibt"
+
+//unknown right wall
+9 68.0 -2.0 "Hier fuehrt der Gedanken nicht weiter"
+9 68.0 0.0 "Hier fuehrt der Gedanken nicht weiter"
+9 68.0 2.0 "Hier fuehrt der Gedanken nicht weiter"
+9 68.0 4.0 "Hier fuehrt der Gedanken nicht weiter"
+9 68.0 6.0 "Hier fuehrt der Gedanken nicht weiter"
+9 68.0 8.0 "Hier fuehrt der Gedanken nicht weiter"
+9 68.0 10.0 "Hier fuehrt der Gedanken nicht weiter"
+9 68.0 12.0 "Hier fuehrt der Gedanken nicht weiter"
+9 68.0 14.0 "Hier fuehrt der Gedanken nicht weiter"
+
+//unknown left
+9 -8.0 -16.0
+9 -8.0 -14.0
+9 -8.0 -12.0
+9 -8.0 -10.0
+9 -8.0 -8.0
+9 -8.0 -6.0
+9 -8.0 -4.0
+9 -8.0 -2.0
+9 -8.0 0.0
+9 -8.0 2.0
+4 -8.0 4.0 "Es gibt einen freien Willen"
+4 -8.0 6.0 "Es gibt einen freien Willen"
+9 -8.0 8.0
+9 -8.0 10.0
+9 -8.0 12.0
+9 -8.0 14.0
+9 -8.0 16.0
+9 -8.0 18.0
+
+1 -10.0 2.0
+1 -12.0 2.0
+1 -14.0 2.0
+1 -16.0 2.0
+1 -18.0 2.0
+1 -20.0 2.0
+1 -22.0 2.0
+
+2 -20.0 5.0 "Wenn Entscheidungen nicht vollstaendig durch die Umgebung bestimmt waeren, woher dann?"
+
+1 -11.0 8.0 "Es gibt keinen freien Willen"
+
+end
+
+

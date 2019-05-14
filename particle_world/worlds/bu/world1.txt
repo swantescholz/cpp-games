@@ -1,0 +1,58 @@
+/*************************************
+possible shape commands:
+	box, sphere, cylinder, torus [smallRadius]
+(the torus-model (bigRadius=1) has as standard: smallRadius=0.25 !)
+possible matrix transformations (multiplied):
+	scaling [x] [y] [z] (y and z are optional)
+	translation [x] [y] [z] (y and z are optional)
+	rotation [x] [y] [z] (x,y,z are radian angles)
+	rotationAxis [axisX] [axisY] [axisZ] [angle]
+	rotationFromTo [fromX] [fromY] [fromZ] [toX] [toY] [toZ]
+possible direction commands: (BEWARE OF ZERO-NORMALIZATIONS!)
+IMPORTANT: direction- and strength-commands should be considered to work within the
+standard bounds of the shape (most often the unit cube: x,y,z[-1,1])
+	constant [vector]
+	pointCentered [pointPositionVector]
+	lineCentered [linePositionVector] [lineDirectionVector]
+	planeCentered [planePositionVector] [planeNormalVector]
+	torusCentered [centerVector] [normalVector= 0 1 0] [bigRadius = 1]
+	resistance (anti-velocity direction)
+	cross [vector] (acceleration = velocityVector X vector)
+	randomOrtho (a random vector, orthogonal to velocity)
+possible strength commands:
+	constant [constantAcceleration]
+	distPoint [inner] [outer] [radius(rangeLength)] [centerVector= 0 0 0]
+	distLine  [inner] [outer] [linePositionVector] [lineDirectionVector] [radius(rangeLength)]
+	distPlane [inner] [outer] [planePositionVector] [planeNormalVector] [radius(rangeLength)=1]
+	distTorus [inner] [outer] [smallTorusRadius] [bigTorusRadius(rangeLength)=1] [torusPlanePositionVector= 0 0 0] [torusPlaneNormalVector= 0 1 0]
+	dragTurbulence [density] [area=1.0] [dragCoefficient=2.0]
+	dragViscosity [fluidViscosity] [radius=1/(6Pi)]
+	randomUniform [min=0.0] [max=1.0]
+	randomNormal [mean] [sigma]
+*************************************/
+box
+	matrix
+		scaling 10 10 15
+		translation 0 30 0
+	direction
+		resistance
+		constant 0 -1 0
+	strength
+		dragViscosity 3
+		constant 2.5
+sphere
+	matrix
+		scaling 50 50 50
+		translation 0 0 0
+	direction
+		lineCentered 0 0 0 0 1 1
+	strength
+		distLine 2.0 1.5 0 0 0 0 1 1 1
+sphere
+	matrix
+		scaling 150 150 150
+	direction
+		resistance
+	strength
+		constant -0.1
+		dragTurbulence 0.0 1 2

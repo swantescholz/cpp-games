@@ -1,0 +1,28 @@
+/*ADVISE:
+0.0 10.0 0.0 2.5
+0.0 2.0 0.0 0.0
+*/
+torus .25 //pseudo
+	matrix
+		scaling 12.5
+		translation 0 0 0
+	direction
+		constant 0 1 0
+	strength
+		constant 0.0
+sphere //middle
+	matrix
+		scaling 50
+		translation 0 0 0
+	direction
+		torusCentered 0 0 0  0 1 0  .25
+	strength
+		constant 4.0
+sphere
+	matrix
+		scaling 150 150 150
+	direction
+		resistance
+	strength
+		constant -0.1
+		dragTurbulence 0.0 1 2

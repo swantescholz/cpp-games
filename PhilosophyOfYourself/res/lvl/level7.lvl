@@ -1,0 +1,128 @@
+0 -20.0 5.0 1 7.0  5.0 10.0  15.0 29.0
+-1 15.0  0.002 0.0 10.0
+-2 10.0 0.02 0.0 1.0 1.0 1.0  1.0 1.0 1.0  1.0 1.0 1.0  1.0 0.0 0.0  35.0
+-3 0.2 0.2 0.2 50.0 50.0 7
+10 36.0 -4.5
+
+1 -20.0 0.0 "'Jetzt bin ich"
+1 -18.0 2.0 "so weit gekommen, "
+1 -16.0 4.0 "aber mein Leben"
+1 -14.0 6.0 "naehert sich dem Ende."
+1 -12.0 8.0 "Ich bin am Ende"
+8 -10.0 10.0 "meiner Gedanken'"
+1 -10.0 8.0
+1 -10.0 6.0
+1 -10.0 4.0
+1 -10.0 2.0
+1 -8.0 2.0
+1 -8.0 0.0
+1 -8.0 -2.0
+1 -8.0 -4.0
+1 -8.0 -6.0
+1 -8.0 -8.0
+1 -8.0 -10.0
+1 -8.0 -12.0
+1 -8.0 -14.0
+1 -8.0 -16.0
+1 -8.0 -18.0
+1 -8.0 -20.0
+
+10 -4.0 16.0
+9 -6.0 14.0 "'Sie ist nicht mehr fuer dich erreichbar'"
+9 -6.0 12.0 "'Sie ist nicht mehr fuer dich erreichbar'"
+9 -6.0 10.0
+9 -6.0 8.0
+9 -4.0 4.0
+3 -5.5 6.0 "'Das Leben hat mir nichts mehr zu bieten'"
+
+1 4.0 0.2 "Stehen bleiben bringt auch nichts"
+
+//solids
+2 -6.0 -2.0
+2 -4.0 -2.0
+2 -2.0 -2.0
+2 0.0 -2.0
+2 2.0 -2.0
+2 4.0 -2.0
+2 6.0 -2.0
+2 8.0 -2.0
+2 10.0 -2.0
+2 12.0 -2.0
+2 14.0 -2.0
+2 16.0 -2.0
+2 18.0 -2.0
+2 20.0 -2.0
+
+//lies
+6 -6.0 -4.0
+6 -4.0 -4.0
+6 -2.0 -4.0
+6 0.0 -4.0
+6 2.0 -4.0
+6 4.0 -4.0
+6 6.0 -4.0
+6 8.0 -4.0
+6 10.0 -4.0
+6 12.0 -4.0
+6 14.0 -4.0
+6 16.0 -4.0
+6 18.0 -4.0
+6 20.0 -4.0
+
+//false_beliefs
+4 -6.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 -4.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 -2.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 0.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 2.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 4.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 6.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 8.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 10.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 12.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 14.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 16.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 18.0 -6.0 "Es gibt ein Leben nach dem Tod"
+4 20.0 -6.0 "Es gibt ein Leben nach dem Tod"
+
+//right side
+6 22.0 -4.0
+6 24.0 -4.0
+6 26.0 -4.0
+6 28.0 -4.0
+6 28.0 -2.0
+
+1 22.0 -6.0
+1 22.0 -8.0
+1 22.0 -10.0
+1 22.0 -12.0
+1 22.0 -14.0
+1 22.0 -16.0
+1 22.0 -18.0
+1 22.0 -20.0
+1 22.0 -6.0
+1 24.0 -6.0
+1 26.0 -6.0
+1 28.0 -6.0
+1 30.5 -7.0 "'Ich moechte jetzt doch weiterleben'"
+1 33.0 -7.0 "'Meine vorherigen Gedanken aendern daran nichts'"
+
+//bottom
+1 -6.0 -20.0 "Hier kommst du nicht wieder raus"
+1 -4.0 -20.0 "Hier kommst du nicht wieder raus"
+1 -2.0 -20.0 "Hier kommst du nicht wieder raus"
+1 0.0 -20.0 "Hier kommst du nicht wieder raus"
+1 2.0 -20.0 "Hier kommst du nicht wieder raus"
+1 4.0 -20.0 "Hier kommst du nicht wieder raus"
+1 6.0 -20.0 "Hier kommst du nicht wieder raus"
+1 8.0 -20.0 "Hier kommst du nicht wieder raus"
+1 10.0 -20.0 "Hier kommst du nicht wieder raus"
+1 12.0 -20.0 "Hier kommst du nicht wieder raus"
+1 14.0 -20.0 "Hier kommst du nicht wieder raus"
+1 16.0 -20.0 "Hier kommst du nicht wieder raus"
+1 18.0 -20.0 "Hier kommst du nicht wieder raus"
+1 20.0 -20.0 "Hier kommst du nicht wieder raus"
+
+11 "GAME OVER" "orbitron-medium" 45 0.9 0.8 0.3  0.0 0.0 0.0  0.0 0.0 0.0 0.0  -6 -20  16 -20  18 -13 -4 -13
+
+end

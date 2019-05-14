@@ -1,0 +1,13 @@
+/*ADVISE:
+0.0 10.0 0.0 2.5
+0.0 2.0 0.0 0.0
+*/
+cylinder
+	matrix
+		scaling 25 45 25
+		//rotationFromTo 0 1 0 0 0 -1
+		translation 0 0 0
+	direction
+		lineCentered 0 0 0  0 1 0
+	strength
+		distLine -5 10  0 0 0  0 1 0  1

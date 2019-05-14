@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?fileVersion 3.1.0?>
+<ManagedProjectBuildInfo>
+  <project id="CF_LevelEditor.cdt.managedbuild.target.gnu.exe.952420996" name="Executable (Gnu)" projectType="cdt.managedbuild.target.gnu.exe">
+    <configuration id="cdt.managedbuild.config.gnu.exe.release.1213410565" name="Release" description="" parent="cdt.managedbuild.config.gnu.exe.release" artifactName="CF_LevelEditor" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" cleanCommand="rm -rf">
+      <toolChain superClass="cdt.managedbuild.toolchain.gnu.exe.release" id="cdt.managedbuild.toolchain.gnu.exe.release.193933531" name="GCC Tool Chain">
+        <tool superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1913283852" name="GCC C++ Compiler">
+          <option superClass="gnu.cpp.compiler.option.include.paths" id="gnu.cpp.compiler.option.include.paths.545569684" valueType="includePath">
+            <listOptionValue value="/usr/include/SDL" builtIn="false"/>
+            <listOptionValue value="/usr/include/GL" builtIn="false"/>
+          </option>
+        </tool>
+        <tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release" id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.1257475583" name="GCC C Compiler"/>
+        <tool superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release" id="cdt.managedbuild.tool.gnu.c.linker.exe.release.567953950" name="GCC C Linker"/>
+        <tool superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.1584827684" name="GCC C++ Linker">
+          <option superClass="gnu.cpp.link.option.libs" id="gnu.cpp.link.option.libs.746256818" valueType="libs">
+            <listOptionValue value="SDL" builtIn="false"/>
+            <listOptionValue value="SDL_ttf" builtIn="false"/>
+            <listOptionValue value="SDL_image" builtIn="false"/>
+            <listOptionValue value="SDL_mixer" builtIn="false"/>
+            <listOptionValue value="GL" builtIn="false"/>
+            <listOptionValue value="GLU" builtIn="false"/>
+          </option>
+        </tool>
+        <tool superClass="cdt.managedbuild.tool.gnu.assembler.exe.release" id="cdt.managedbuild.tool.gnu.assembler.exe.release.1060923485" name="GCC Assembler"/>
+        <macros/>
+      </toolChain>
+    </configuration>
+  </project>
+</ManagedProjectBuildInfo>

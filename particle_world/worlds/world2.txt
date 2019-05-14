@@ -1,0 +1,66 @@
+/*ADVISE:
+0.0 0.0 0.0 4.5
+0.0 0.1 0.0 0.0
+*/
+cylinder //middle
+	matrix
+		scaling 15 10 15
+		rotationFromTo 0 1 0  0 0 1
+		translation 0 0 0
+	direction
+		lineCentered 0 0 0 0 1 0
+	strength
+		constant -4.0
+box //top left
+	matrix
+		scaling 15 15 15
+		translation -20 20 0
+	direction
+		constant 0 -1 0
+	strength
+		constant 8.0
+box //bottom left
+	matrix
+		scaling 15 15 15
+		translation -20 -20 0
+	direction
+		constant 0 1 0
+	strength
+		constant 8.0
+box //bottom-right
+	matrix
+		scaling 15 15 15
+		translation 20 -20 0
+	direction
+		constant 0 1 0
+	strength
+		constant 8.0
+box //upper-right
+	matrix
+		scaling 15 15 15
+		translation 20 20 0
+	direction
+		constant 0 -1 0
+	strength
+		constant 8.0
+sphere //bounding sphere overall
+	matrix
+		scaling 250 250 250
+	direction
+		pointCentered 0 0 0
+	strength
+		distPoint 0 10
+sphere //overall resistance
+	matrix
+		scaling 250 250 250
+	direction
+		resistance
+	strength
+		dragTurbulence .02
+sphere //overall boost
+	matrix
+		scaling 250 250 250
+	direction
+		resistance
+	strength
+		constant -2.0
